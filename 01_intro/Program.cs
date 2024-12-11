@@ -6,6 +6,9 @@
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.CursorTop = 14;
         Console.CursorLeft = 20;
+        Console.Title = "dhdhdh";
+        Console.ResetColor();
+        Console.Clear();
     }
     static void WriteLineWays()
     {
@@ -25,11 +28,11 @@
         Console.WriteLine("float value :: {0}; \t {0} \t {0} \t\t SQRT = {1}", f, Math.Sqrt(f));
 
         // way 3
-        Console.WriteLine($"money :: {money,-20}; number ^ 2 = {Math.Pow(numb, 2)}");
+        Console.WriteLine($"money :: {money * 2,-20}; number ^ 2 = {Math.Pow(numb, 2)}");
         Console.OutputEncoding = System.Text.Encoding.Unicode;
         //Console.InputEncoding = System.Text.Encoding.Unicode;
         Console.WriteLine(str);
-
+       
     }
     static void ReadNumbers()
     {
@@ -129,12 +132,25 @@
                     break;
             }
         }*/
-        int res;
+        /*int res;
         do
         {
             Console.Write("2 + 2 = ");
             res = int.Parse(Console.ReadLine());
-        } while (res != 4);
+        } while (res != 4);*/
+
+        // +,-,*,/,%
+        // ++,--
+        // -
+        Console.WriteLine(@"
+            test\
+                    next
+                            \t");
+       /* int a = 5;
+        while (a) // Error
+        {
+
+        }*/
     }
 
     static void ReadChar()
@@ -147,4 +163,5 @@
         Console.WriteLine("IsDigit  :: \t" + char.IsDigit(symbol));
         Console.WriteLine("ToUpper  :: \t" + char.ToUpper(symbol));
     }
+  
 }

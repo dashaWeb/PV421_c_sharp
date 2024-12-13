@@ -10,7 +10,7 @@ internal class Program
     {
         return a + b + c;
     }*/
-    static int sum(params int[] arr)
+    static int sum(string text ,params int[] arr)
     {
         return arr.Sum();
     }
@@ -63,7 +63,7 @@ internal class Program
         Console.WriteLine(text.Capacity);*/
 
 
-        Console.WriteLine($"Sum :: {sum(2,3,5,8,6,5,8,5,4,7)}");
+        Console.WriteLine($"Sum :: {sum("sss",3,5,8,6,5,8,5,4,7)}");
 
 
     }

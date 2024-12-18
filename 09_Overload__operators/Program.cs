@@ -23,6 +23,7 @@ internal class Program
 
         double value = two;
         value = new Fraction(1, 2);
+        //int vv = one;
         Console.WriteLine($"Result explicit ==> {(double)two}");
     }
 }

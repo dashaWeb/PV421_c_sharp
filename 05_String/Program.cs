@@ -28,6 +28,7 @@ internal class Program
         Console.WriteLine("Contains :: " + text.Contains("C#"));
         Console.WriteLine("StartsWith :: " + text.StartsWith("C#"));
         Console.WriteLine("EndsWith :: " + text.EndsWith("C#"));
+        Console.WriteLine("EndsWith :: " + text.Remove(1,4));
 
         var index = text.IndexOf("C#"); // -1 not found
         Console.WriteLine($"IndexOf :: {index}");

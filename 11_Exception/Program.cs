@@ -89,5 +89,6 @@ internal class Program
         Console.ForegroundColor= ConsoleColor.Green;
         Console.WriteLine($"Name product : {product.Name,-15} Date : {product.DateIn}");
         Console.ResetColor();
+        
     }
 }

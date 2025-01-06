@@ -23,11 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Null__operator", "08_Nul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Overload__operators", "09_Overload__operators\09_Overload__operators.csproj", "{AEC16765-9677-45DA-BC3B-F0A45CEB4FFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Overload Vecto_ helper home", "09_Overload Vecto_ helper home\09_Overload Vecto_ helper home.csproj", "{70ED2EDD-DC8C-4466-ABD1-B5A371929C4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Overload Vecto_ helper home", "09_Overload Vecto_ helper home\09_Overload Vecto_ helper home.csproj", "{70ED2EDD-DC8C-4466-ABD1-B5A371929C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Matrix_indexer", "10_Matrix_indexer\10_Matrix_indexer.csproj", "{6B8FD55D-2D83-41E7-AA21-25BCAB55EDB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Matrix_indexer", "10_Matrix_indexer\10_Matrix_indexer.csproj", "{6B8FD55D-2D83-41E7-AA21-25BCAB55EDB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Exception", "11_Exception\11_Exception.csproj", "{2D8CF4A9-0BA4-46DA-92B7-6E7CCB1DDF0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Exception", "11_Exception\11_Exception.csproj", "{2D8CF4A9-0BA4-46DA-92B7-6E7CCB1DDF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Inheritance", "12_Inheritance\12_Inheritance.csproj", "{8C5D8EB9-B628-40B9-B917-9A8D6D664288}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,18 @@ Global
 		{2D8CF4A9-0BA4-46DA-92B7-6E7CCB1DDF0B}.Release|x64.Build.0 = Release|Any CPU
 		{2D8CF4A9-0BA4-46DA-92B7-6E7CCB1DDF0B}.Release|x86.ActiveCfg = Release|Any CPU
 		{2D8CF4A9-0BA4-46DA-92B7-6E7CCB1DDF0B}.Release|x86.Build.0 = Release|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Release|x64.Build.0 = Release|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C5D8EB9-B628-40B9-B917-9A8D6D664288}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

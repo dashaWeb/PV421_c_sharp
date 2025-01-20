@@ -62,7 +62,7 @@ internal class Program
         color.Sort();
         PrintList(color, "Print List after sort");
 
-        color.Sort((s1,s2) => -s1.Length.CompareTo(s2.Length));
+        color.Sort((s1,s2) => s1.Length.CompareTo(s2.Length));
         PrintList(color, "Print List after sort by length");
     }
 

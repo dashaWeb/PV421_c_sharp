@@ -24,5 +24,6 @@ internal class Program
         {
             Console.WriteLine($"{item.Key,-10} {item.Value}");
         }
+        
     }
 }

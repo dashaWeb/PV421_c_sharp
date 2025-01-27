@@ -69,9 +69,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_Binary_Writer_Reader", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Stream_Writer_Reader", "31_Stream_Writer_Reader\31_Stream_Writer_Reader.csproj", "{6BDAF6F9-69F5-45FC-BDC7-AE32993A56C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_XML_Serializer", "32_XML_Serializer\32_XML_Serializer.csproj", "{FC098C76-D0A9-409E-9E66-3A2AF4786F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_XML_Serializer", "32_XML_Serializer\32_XML_Serializer.csproj", "{FC098C76-D0A9-409E-9E66-3A2AF4786F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_JSON_Serializer", "33_JSON_Serializer\33_JSON_Serializer.csproj", "{844E1866-46D8-4A56-A79B-C3C96CC18F5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33_JSON_Serializer", "33_JSON_Serializer\33_JSON_Serializer.csproj", "{844E1866-46D8-4A56-A79B-C3C96CC18F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_File_and_FileInfo", "34_File_and_FileInfo\34_File_and_FileInfo.csproj", "{18B63C98-2B2D-4735-9DBA-0E8D6946040E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_Directory_and_DirectoryInfo", "35_Directory_and_DirectoryInfo\35_Directory_and_DirectoryInfo.csproj", "{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -503,6 +507,30 @@ Global
 		{844E1866-46D8-4A56-A79B-C3C96CC18F5D}.Release|x64.Build.0 = Release|Any CPU
 		{844E1866-46D8-4A56-A79B-C3C96CC18F5D}.Release|x86.ActiveCfg = Release|Any CPU
 		{844E1866-46D8-4A56-A79B-C3C96CC18F5D}.Release|x86.Build.0 = Release|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Debug|x64.Build.0 = Debug|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Debug|x86.Build.0 = Debug|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Release|x64.ActiveCfg = Release|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Release|x64.Build.0 = Release|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Release|x86.ActiveCfg = Release|Any CPU
+		{18B63C98-2B2D-4735-9DBA-0E8D6946040E}.Release|x86.Build.0 = Release|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Release|x64.Build.0 = Release|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{D064CF19-0BCE-4AB7-84D3-32CAC5BAD4A1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
